@@ -1,4 +1,20 @@
-let ciudadano = 11;
+let audio = document.getElementById("audio");
+audio.play();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* let ciudadano = 11;
 let oveja = 3;
 let casa = 0;
 let jabali = 1;
@@ -30,3 +46,4 @@ let jabali = 1;
             }
     }
 
+*/

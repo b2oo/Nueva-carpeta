@@ -4,11 +4,11 @@ body {
 .david img{
     display: block;
     margin: auto;
-    margin-right: 300px;
+    margin-right: 200px;
     opacity: 100%;
 }
 div{
-    font-size: 30px;
+    font-size: 24px;
 }
  div .text{
     top: 100px;
@@ -40,16 +40,16 @@ div #h2{
 @keyframes animacion { 
     0% {
       opacity: 0;
-      width: 600px;
+      width: 500px;
     }
   
     100% {
       opacity: 1;
-      width: 800px;
+      width: 700px;
     }
   }
 .david img{
     animation: animacion 45s;
     opacity: 100%;
-    width: 800px;
+    width: 700px;
 }
