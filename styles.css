@@ -1,0 +1,55 @@
+body {
+    background: #000;
+}
+.david img{
+    display: block;
+    margin: auto;
+    margin-right: 300px;
+    opacity: 100%;
+}
+div{
+    font-size: 30px;
+}
+ div .text{
+    top: 100px;
+    position: absolute;
+    animation: animaciontexto 10s;
+    color: rgb(255, 0, 0);
+}
+div h2{
+    top: 150px;
+    position: absolute;
+    color: rgb(255, 0, 0);
+    animation: animaciontexto 35s;
+}
+div #h2{
+    top: 190px;
+    position: absolute;
+    color: rgb(255, 0, 0);
+    animation: animaciontexto 60s;
+}
+@keyframes animaciontexto { 
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+@keyframes animacion { 
+    0% {
+      opacity: 0;
+      width: 600px;
+    }
+  
+    100% {
+      opacity: 1;
+      width: 800px;
+    }
+  }
+.david img{
+    animation: animacion 45s;
+    opacity: 100%;
+    width: 800px;
+}
