@@ -1,6 +1,20 @@
 let audio = document.getElementById("audio");
-audio.play();
 
+
+function validacionFr(valor){
+    valor = prompt("Odias a frozo?");
+    if(valor == "si"){
+        alert("No debiste decir eso amigo... GAME OVER")
+        audio.play();
+    }else if(valor == "no"){
+        alert("Bro wtf? XDDD Intentalo de nuevo")
+        validacionFr()
+    }else{
+        alert(`Solo "si" o "no" como respuesta. Intentalo de nuevo`)
+        validacionFr()
+    }
+}
+validacionFr()
 
 
 
