@@ -1,11 +1,14 @@
-let audio = document.getElementById("audio");
-
+const audio = document.getElementById("audio");
 
 function validacionFr(valor){
     valor = prompt("Odias a frozo?");
     if(valor == "si"){
         alert("No debiste decir eso amigo... GAME OVER")
-        audio.play();
+        document.addEventListener('keydown', function (evento) {
+           if(evento.keyCode == 13){
+            audio.play();
+           } 
+        })
     }else if(valor == "no"){
         alert("Bro wtf? XDDD Intentalo de nuevo")
         validacionFr()
